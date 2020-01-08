@@ -1,0 +1,25 @@
+body{
+    background-color: royalblue
+}
+h1{
+    color: palevioletred;
+}
+
+p{
+    font-size: larger;
+    color: white;
+    background-color: teal;
+
+
+}
+
+#yep{
+    color: tomato;
+
+}
+#fancy{
+    box-sizing: border-box;
+    border-color: white;
+    background-color: black;
+    padding: 12px;
+}
