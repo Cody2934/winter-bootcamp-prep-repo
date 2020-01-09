@@ -1,30 +1,58 @@
-body{
-    background-color: royalblue
-}
-
-h1{
-    color: palevioletred;
-}
-
-p{
-    font-size: larger;
-    color: white;
-    background-color: teal;
-}
-
-#yep{
-    color: tomato;
-
-}
-#fancy{
+* {
     box-sizing: border-box;
-    border-color: white;
-    background-color: black;
-    padding: 12px;
 }
 
-#fancy:hover{
-    height: 1000px;
-    width: 1000px;
-    cursor: none;
+body {
+    background-image: url('http://www.placekitten.com/300/300');
+    background: lightslategray;
+    text-align: left;
+}
+
+h1 {
+    color: pink;
+    font-size: 40px;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+}
+
+p {
+    color: blue
+}
+
+li {
+    color: darkgreen;
+    list-style: upper-roman;
+}
+
+ul {
+    display: block;
+}
+
+.cool {
+    color: lightblue;
+}
+
+.square {
+    height: 300px;
+    width: 250px;
+    border-radius: 150px;
+    border: dotted whitesmoke 5px;
+    margin: 0 auto; 
+    padding: 40px;
+    color: white;
+    transition: width .1s ease-in-out;
+}
+
+.square:hover {
+    height: 200px;
+    width: 500px;
+    cursor: pointer;
+}
+
+#cool-square {
+    background: black;
+}
+
+#uncool-square {
+    background: red;
 }
