@@ -1,0 +1,32 @@
+* {
+    box-sizing: 
+    border-box;
+}
+
+.nametag {
+    width: 200px
+    height: 150px;
+    border: black
+    border-radius: 25px
+}
+
+.back {
+    background-color: red;
+}
+
+.front {
+    color: white
+    position: relative;
+    top: 130px
+    height: 190px
+
+}
+
+.words{
+
+}
+
+.otherwords{
+
+    
+}

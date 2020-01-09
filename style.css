@@ -1,6 +1,7 @@
 body{
     background-color: royalblue
 }
+
 h1{
     color: palevioletred;
 }
@@ -9,8 +10,6 @@ p{
     font-size: larger;
     color: white;
     background-color: teal;
-
-
 }
 
 #yep{
@@ -22,4 +21,10 @@ p{
     border-color: white;
     background-color: black;
     padding: 12px;
+}
+
+#fancy:hover{
+    height: 1000px;
+    width: 1000px;
+    cursor: none;
 }
